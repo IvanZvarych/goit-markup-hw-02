@@ -1,0 +1,170 @@
+:root {
+  --accent-color: #2196f3;
+  --main-color: #212121;
+  --main-color2: #757575;
+  --color-logo: #000000;
+  --footer-color: #ffffff99;
+  --btn-text-color: #ffffff;
+  --btn-text-color2: #212121;
+  --btn-background-color: #f5f4fa;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-color);
+}
+/* ----- ----------------- HEADER */
+.link {
+  text-decoration: none;
+  color: var(--main-color);
+  font-size: 14;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.link:hover,
+.link:active {
+  color: var(--accent-color);
+}
+.current {
+  color: var(--accent-color);
+}
+.logo {
+  /* text-decoration: none; */
+  font-family: Raleway;
+  color: var(--color-logo);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.w-logo {
+  color: var(--accent-color);
+}
+
+/* ------------------------  FOOTER */
+.contakt {
+  color: var(--main-color2);
+}
+.f-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--footer-color);
+  /* ----   this is temporary, for clarity */
+  background-color: gray;
+}
+.addr {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footer-color);
+  border: 1px solid #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* ----   this is temporary, for clarity */
+  background-color: gray;
+}
+/* ----------------------    MAIN */
+.list {
+  list-style: none;
+}
+.header-1 {
+  color: var(--footer-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* ----   this is temporary, for clarity */
+  background-color: gray;
+}
+.hero-btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.86; /* identical to box height, or 187% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--btn-text-color);
+  /* ----   this is temporary, for clarity */
+  background-color: gray;
+}
+.list-header-3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.list-text {
+  color: var(--main-color2);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.header-2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.command-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18; /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.command-profession {
+  font-size: 16px;
+  line-height: 1.18;
+}
+.contakt {
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* -------------PORTFOLIO---------- */
+.btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--btn-text-color2);
+  background-color: var(--btn-background-color);
+}
+.btn:hover {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--btn-text-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.caption {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}
+.comment {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--main-color2);
+}
