@@ -22,7 +22,8 @@ body {
   letter-spacing: 0.02em;
 }
 .link:hover,
-.link:active {
+.link:active,
+.link:focus {
   color: var(--accent-color);
 }
 .current {
@@ -48,7 +49,7 @@ body {
 .f-logo {
   font-family: Raleway;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -57,7 +58,9 @@ body {
   background-color: gray;
 }
 .addr {
+  font-family: inherit;
   font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -83,7 +86,8 @@ body {
   background-color: gray;
 }
 .hero-btn {
-  font-weight: bold;
+  font-family: inherit;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.86; /* identical to box height, or 187% */
   display: flex;
@@ -91,11 +95,10 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--btn-text-color);
-  /* ----   this is temporary, for clarity */
-  background-color: gray;
+  background-color: var(--accent-color);
 }
 .list-header-3 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -108,7 +111,7 @@ body {
   letter-spacing: 0.03em;
 }
 .header-2 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -131,6 +134,7 @@ body {
 }
 /* -------------PORTFOLIO---------- */
 .btn {
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -140,7 +144,9 @@ body {
   color: var(--btn-text-color2);
   background-color: var(--btn-background-color);
 }
-.btn:hover {
+.btn:hover,
+.btn:active,
+.btn:focus {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -155,7 +161,7 @@ body {
 }
 .caption {
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
