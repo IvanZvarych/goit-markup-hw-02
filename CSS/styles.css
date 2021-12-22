@@ -3,7 +3,8 @@
   --main-color: #212121;
   --main-color2: #757575;
   --color-logo: #000000;
-  --footer-color: #ffffff99;
+  --footer-color: #ffffff;
+  --footer-color2: #ffffff99;
   --btn-text-color: #ffffff;
   --btn-text-color2: #212121;
   --btn-background-color: #f5f4fa;
@@ -16,7 +17,7 @@ body {
 .link {
   text-decoration: none;
   color: var(--main-color);
-  font-size: 14;
+  font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -44,7 +45,14 @@ body {
 
 /* ------------------------  FOOTER */
 .contakt {
-  color: var(--main-color2);
+  /* font-style: normal; */
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footer-color2);
+  /* ----   this is temporary, for clarity */
+  background-color: gray;
 }
 .f-logo {
   font-family: Raleway;
@@ -127,11 +135,10 @@ body {
 .command-profession {
   font-size: 16px;
   line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
-.contakt {
-  font-size: 14px;
-  line-height: 1.71;
-}
+
 /* -------------PORTFOLIO---------- */
 .btn {
   font-family: inherit;
